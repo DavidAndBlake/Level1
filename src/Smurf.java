@@ -1,3 +1,5 @@
+import javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction;
+
 // Copyright Wintriss Technical Schools 2013
 /* 
  * 1. Watch this smurf cartoon: https://www.youtube.com/watch?v=RqbpzEHuO2g
@@ -23,15 +25,21 @@ public class Smurf {
 	}
 
 	/* Papa Smurf wears a red hat, all the others are white. */
-	public String getHatColor() {
+	public String getHatColor() 
+	{
 		// 3. Fill in this method
-		return "";
+		if (name .equals("papaSmurf"))
+		{
+			return "Red.";
+		}
+		else return "White";
 	}
 
 	/* Smurfette is the only female Smurf. */
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
-		return "";
+		if Smurf = 
+		return "Smurfette is the only female Smurf.";
 	}
 
 }
